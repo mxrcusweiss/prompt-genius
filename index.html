@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Prompt Genius - Free AI Prompt Generator&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="description" content="Generate expert AI prompts for ChatGPT, Midjourney, and more. Boost your productivity instantly."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>* { margin: 0; padding: 0; box-sizing: border-box; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container { max-width: 800px; margin: 0 auto; padding: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>header { text-align: center; color: white; padding: 40px 0; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 { font-size: 2.5em; margin-bottom: 10px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.subtitle { font-size: 1.2em; opacity: 0.9; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-group { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>label { display: block; margin-bottom: 8px; font-weight: bold; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>input, select, textarea { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; transition: border-color 0.3s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>input:focus, select:focus, textarea:focus { outline: none; border-color: #667eea; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button { background: #667eea; color: white; padding: 15px 30px; border: none; border-radius: 8px; font-size: 18px; cursor: pointer; width: 100%; margin-top: 20px; transition: background 0.3s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button:hover { background: #5a67d8; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#output { background: #f8f9fa; border: 2px solid #e9ecef; border-radius: 8px; padding: 20px; margin-top: 20px; white-space: pre-wrap; min-height: 100px; display: none; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.monetize { background: #e8f5e8; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.affiliate { display: inline-block; margin: 10px; text-decoration: none; color: #28a745; font-weight: bold; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>footer { text-align: center; color: white; padding: 20px; opacity: 0.8; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 600px) { h1 { font-size: 2em; } .container { padding: 10px; } }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1&gt;Prompt Genius&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="subtitle"&gt;Craft perfect AI prompts in seconds. Free forever.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="task"&gt;What do you want to do?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="task" placeholder="e.g., Write a blog post about fitness"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="aiTool"&gt;AI Tool:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="aiTool"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="chatgpt"&gt;ChatGPT&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="midjourney"&gt;Midjourney&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="dalle"&gt;DALL-E&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="general"&gt;General&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="style"&gt;Style/Tone:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="style"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="professional"&gt;Professional&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="creative"&gt;Creative&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="funny"&gt;Funny&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="concise"&gt;Concise&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="detail"&gt;Extra Details (optional):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="detail" rows="3" placeholder="e.g., 500 words, include stats"&gt;&lt;/textarea&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button onclick="generatePrompt()"&gt;Generate Prompt&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="output"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="monetize"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Level Up Your AI Skills&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Check these top-rated books (affiliate links):&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://amzn.to/3example1" class="affiliate" target="_blank"&gt;Prompt Engineering Guide&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://amzn.to/3example2" class="affiliate" target="_blank"&gt;ChatGPT Mastery&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Replace with your real Amazon shortlinks after signup (free) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Ads load here: &lt;!-- Paste AdSense code later --&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;copy; 2024 Prompt Genius. Free to use. Built with ❤️ for AI lovers.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function generatePrompt() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const task = document.getElementById('task').value;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const aiTool = document.getElementById('aiTool').value;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const style = document.getElementById('style').value;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const detail = document.getElementById('detail').value;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (!task) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>alert('Enter a task!');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>let basePrompt = `Create a ${style} ${aiTool} prompt for: ${task}`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (detail) basePrompt += `. Details: ${detail}`;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Unique enhancer logic</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const enhancers = [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>'Use step-by-step reasoning.',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>'Include examples.',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>'Optimize for best results.',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>'Make it engaging and detailed.'</p>
+<p class="p1"><span class="Apple-converted-space">            </span>];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const randomEnhancers = enhancers.sort(() =&gt; 0.5 - Math.random()).slice(0, 2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>basePrompt += `\nEnhance with: ${randomEnhancers.join(' ')}`;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('output').textContent = basePrompt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('output').style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('output').scrollIntoView({ behavior: 'smooth' });</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// SEO: Track views (free analytics placeholder)</p>
+<p class="p1"><span class="Apple-converted-space">        </span>console.log('Prompt generated for:', document.getElementById('task').value);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
